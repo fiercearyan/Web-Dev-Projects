@@ -1,0 +1,92 @@
+/* Navigation Bar */
+.my_nav{
+   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+   background-color: rgb(255, 255, 255, 87%) !important;
+   backdrop-filter: blur(10px);
+}
+/* Navigation Bar */
+
+/* Header */
+.main-header{
+   background-image: url(img/banner4.jpg);
+   background-size: cover;
+   padding-top: 150px;
+   padding-bottom: 100px;
+}
+.default-header{
+   background-image: url(img/banner4.jpg);
+   background-size: cover;
+   padding-top: 100px;
+   padding-bottom: 50px;
+}
+.header-text-holder, .subscribe-holder{
+   text-align: center;
+   color: white;
+}
+.subs_btn{
+   margin-top: 30px;
+}
+.default-header-text-holder{
+   color: white;
+}
+.default-header-text-holder h3{
+   font-size: 2em;
+}
+/* Header */
+
+/* Body */
+.home-body-content, .default-body-content{
+   margin-top: 40px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.default-body-content .list-group .list-group-item h3{
+   font-size: 1.3em;
+}
+.default-body-content .list-group a{
+   color: black;
+   padding-top: 20px;
+}
+.a-cls{
+   transition: 0.3s;
+}
+.a-cls:hover{
+   box-shadow: 2px 2px 10px rgba(0, 129, 17, 0.3);
+   transition: 0.3s;
+}
+.home-body-content .my_card{
+   margin-bottom: 25px;
+   transition: 0.4s;
+}
+.my_card:hover{
+   box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.3);
+   transition: 0.4s;
+}
+.my_card h3{
+   font-size: 1.3em;
+}
+.list_class{
+   margin-left:  300px;
+}
+.list-group-item{
+   transition: 0.4s;
+}
+.list-group-item:hover{
+   box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.5);
+   transition: 0.4s;
+}
+
+
+/* Body */
+
+/* Footer */
+footer.main-footer{
+   padding-top: 25px;
+   padding-bottom: 25px;
+   color: white;
+   background-color: black;
+}
+footer.main-footer p{
+   margin: 0px;
+}
+/* Footer */
